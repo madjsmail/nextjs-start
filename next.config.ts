@@ -1,11 +1,8 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
-	/* config options here */
-	eslint: {
-		dirs: ["app", "utils"],
-		ignoreDuringBuilds: true,
-	},
-};
-
-export default nextConfig;
+import type {NextConfig} from 'next';
+import createNextIntlPlugin from 'next-intl/plugin';
+const i18 = ''
+ 
+const nextConfig: NextConfig = {};
+ 
+const withNextIntl = createNextIntlPlugin('./feature/internationalization/request.ts');
+export default withNextIntl(nextConfig);
