@@ -1,9 +1,25 @@
 {
-    "counter": {
-      "decrement": "Decrement",
-      "increment": "Increment"
+  "counter": {
+    "decrement": "Decrement",
+    "increment": "Increment"
+  },
+  "landing": {
+    "welcome": "Welcome"
+  },
+  "LandingPage": {
+    "hero": {
+      "title": "Welcome to Our Amazing App",
+      "description": "Discover how our app can revolutionize your workflow."
     },
-    "landing": {
-      "welcome": "Welcome"
+    "features": {
+      "title": "Key Features",
+      "item1": "Feature 1: Does X",
+      "item2": "Feature 2: Solves Y",
+      "item3": "Feature 3: Enables Z"
+    },
+    "cta": {
+      "title": "Get Started Today",
+      "button": "Sign Up Now"
     }
   }
+}

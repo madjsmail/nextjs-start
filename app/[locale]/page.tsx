@@ -1,13 +1,11 @@
 'use client'
-import { Link } from '@/feature/internationalization/navigation';
-import {useTranslations} from 'next-intl';
- 
+import { Link } from '@/feature/internationalization/navigation'; // This might be unused now
+import {useTranslations} from 'next-intl'; // This might be unused now
+import LandingPage from '@/app/components/LandingPage/LandingPage'; // Added import
+
 export default function HomePage() {
-  const t = useTranslations('landing');
+  const t = useTranslations('landing'); // This might be unused now
   return (
-    <div>
-      <h1>{t('welcome')}</h1>
-      <Link href="/about">{t('about')}</Link>
-    </div>
+    <LandingPage /> // Replaced content
   );
 }

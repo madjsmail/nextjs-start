@@ -1,9 +1,25 @@
 {
   "counter": {
-  "decrement": "Décrémenter",
-  "increment": "Incrémenter"
+    "decrement": "Décrémenter",
+    "increment": "Incrémenter"
   },
   "landing": {
-  "welcome": "Bienvenue"
+    "welcome": "Bienvenue"
+  },
+  "LandingPage": {
+    "hero": {
+      "title": "Bienvenue sur Notre Incroyable Application",
+      "description": "Découvrez comment notre application peut révolutionner votre flux de travail."
+    },
+    "features": {
+      "title": "Fonctionnalités Clés",
+      "item1": "Fonctionnalité 1 : Fait X",
+      "item2": "Fonctionnalité 2 : Résout Y",
+      "item3": "Fonctionnalité 3 : Permet Z"
+    },
+    "cta": {
+      "title": "Commencez Dès Aujourd'hui",
+      "button": "Inscrivez-vous Maintenant"
+    }
   }
-  }
+}
